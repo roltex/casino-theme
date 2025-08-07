@@ -164,15 +164,121 @@ Add custom CSS through the WordPress admin:
 
 ### Using Shortcodes
 
-**Casino Table**
+#### Casino Table Shortcode
+
+The `casinos_table` shortcode displays a table of casinos with various customization options.
+
+**Basic Usage:**
 ```
-[casinos_table template="1" second_col="loyalty"]
+[casinos_table]
 ```
 
-**Casino Search**
+**Full Syntax:**
 ```
-[casino_search]
+[casinos_table title="Custom Title" template="1" second_col="loyalty" limit="10"]
 ```
+
+**Available Parameters:**
+
+| Parameter | Type | Default | Options | Description |
+|-----------|------|---------|---------|-------------|
+| `title` | string | "Best Casino" | Any text | Custom title for the table |
+| `template` | string | "1" | "1", "2" | Table template style |
+| `second_col` | string | "loyalty" | See table below | Content for the second column |
+| `limit` | integer | 10 | 1-50 | Number of casinos to display |
+
+**Second Column Options:**
+
+| Option | Description | Template Support | Output Format |
+|--------|-------------|------------------|---------------|
+| `loyalty` | Shows loyalty program status | 1, 2 | YES/NO badges |
+| `live_casino` | Shows live casino availability | 1, 2 | YES/NO badges |
+| `mobile_casino` | Shows mobile casino availability | 1, 2 | YES/NO badges |
+| `year_established` | Shows year of establishment | 2 only | "Est. YYYY" |
+| `contact_email` | Shows contact email address | 2 only | Clickable email link |
+| `games` | Shows linked games list | 2 only | List of game links |
+
+**Template Variations:**
+
+**Template 1** - Static table with fixed second column:
+```
+[casinos_table template="1" second_col="loyalty"]
+[casinos_table template="1" second_col="live_casino"]
+[casinos_table template="1" second_col="mobile_casino"]
+```
+
+**Template 2** - Dynamic table with interactive column selection:
+```
+[casinos_table template="2" second_col="loyalty"]
+[casinos_table template="2" second_col="live_casino"]
+[casinos_table template="2" second_col="mobile_casino"]
+[casinos_table template="2" second_col="year_established"]
+[casinos_table template="2" second_col="contact_email"]
+[casinos_table template="2" second_col="games"]
+```
+
+**Usage Examples:**
+
+```php
+// Basic casino table with loyalty program column
+[casinos_table]
+
+// Custom title with live casino column
+[casinos_table title="Top Live Casinos" second_col="live_casino"]
+
+// Template 2 with mobile casino column, limit 5
+[casinos_table template="2" second_col="mobile_casino" limit="5"]
+
+// Template 1 with custom title and mobile casino
+[casinos_table title="Mobile-Friendly Casinos" template="1" second_col="mobile_casino" limit="15"]
+
+// Template 2 with year established information
+[casinos_table template="2" second_col="year_established" title="Casino History"]
+
+// Template 2 with contact email information
+[casinos_table template="2" second_col="contact_email" title="Casino Contact Info"]
+
+// Template 2 with games count
+[casinos_table template="2" second_col="games" title="Casino Games Library"]
+
+// Template 2 with loyalty program (default)
+[casinos_table template="2" second_col="loyalty" title="Loyalty Programs"]
+
+// Template 1 with live casino feature
+[casinos_table template="1" second_col="live_casino" title="Live Casino Availability"]
+```
+
+**Template Features:**
+
+**Template 1 Features:**
+- Static table layout
+- Fixed second column content
+- Simple YES/NO badges for features
+- Direct links to casino reviews
+- Responsive design
+
+**Template 2 Features:**
+- Dynamic table with interactive column selection
+- AJAX-powered content loading
+- Dropdown selector for column type
+- Real-time content updates
+- Enhanced user experience
+- Support for all column types including games list and contact info
+
+**Casino Search Shortcode**
+
+```
+[casino_search placeholder="Search casinos..." button_text="Search" show_filters="true" results_per_page="12"]
+```
+
+**Available Parameters:**
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `placeholder` | string | "Search casinos..." | Search input placeholder text |
+| `button_text` | string | "Search" | Search button text |
+| `show_filters` | boolean | "true" | Show category filters |
+| `results_per_page` | integer | 12 | Number of results per page |
 
 ## 🎯 Performance
 
