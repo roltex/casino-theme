@@ -1,0 +1,963 @@
+# Copyright (C) 2023 Roland Esakia
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Casino Theme 1.0.0\n"
+"Report-Msgid-Bugs-To: https://buildweb.dev/casino/contact/\n"
+"POT-Creation-Date: 2023-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Theme Name of the theme
+msgid "Casino Theme"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://buildweb.dev/casino"
+msgstr ""
+
+#. Description of the theme
+msgid "A WordPress theme for casino reviews built with Bootstrap"
+msgstr ""
+
+#. Author of the theme
+msgid "Roland Esakia"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://buildweb.dev/casino"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:49
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive-casino.php:25 archive-game.php:25
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: archive-casino.php:29 archive-game.php:29
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: archive-casino.php:35 archive-game.php:35
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: archive-casino.php:40 archive-game.php:40
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: comments.php:35
+#. translators: %s: post title
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#. translators: 1: number of comments, 2: post title
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:57 comments.php:77
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:60 comments.php:80
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:61 comments.php:81
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:94
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:31
+#. translators: 1: Copyright symbol, 2: Year, 3: Site name
+msgid "Copyright %1$s %2$s %3$s. All rights reserved."
+msgstr ""
+
+#: front-page.php:21
+msgid "Welcome to Our Casino Review Site"
+msgstr ""
+
+#: front-page.php:22
+msgid "Discover the best online casinos and games with our expert reviews and ratings."
+msgstr ""
+
+#: front-page.php:26
+msgid "Featured Casinos"
+msgstr ""
+
+#: front-page.php:31
+msgid "Latest Games"
+msgstr ""
+
+#: front-page.php:37
+msgid "Expert Reviews"
+msgstr ""
+
+#: front-page.php:40
+msgid "Our team of experts thoroughly test and review each casino to provide you with honest and detailed information."
+msgstr ""
+
+#: front-page.php:45
+msgid "Safe & Secure"
+msgstr ""
+
+#: front-page.php:48
+msgid "We only recommend licensed and regulated casinos that prioritize player safety and security."
+msgstr ""
+
+#: front-page.php:53
+msgid "Exclusive Bonuses"
+msgstr ""
+
+#: front-page.php:56
+msgid "Get access to exclusive bonuses and promotions that are only available to our visitors."
+msgstr ""
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:54
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:63
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:65 functions.php:73 functions.php:81 functions.php:89
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:71
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:73
+msgid "Add widgets here for footer column 1."
+msgstr ""
+
+#: functions.php:79
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:81
+msgid "Add widgets here for footer column 2."
+msgstr ""
+
+#: functions.php:87
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:89
+msgid "Add widgets here for footer column 3."
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:46
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/custom-fields.php:28 inc/custom-fields.php:37
+msgid "Casino Details"
+msgstr ""
+
+#: inc/custom-fields.php:46
+msgid "Official Site"
+msgstr ""
+
+#: inc/custom-fields.php:50
+msgid "Enter the official website URL."
+msgstr ""
+
+#: inc/custom-fields.php:54
+msgid "Year of Establishment"
+msgstr ""
+
+#: inc/custom-fields.php:58
+msgid "Enter the year the casino was established."
+msgstr ""
+
+#: inc/custom-fields.php:62
+msgid "Contact Email"
+msgstr ""
+
+#: inc/custom-fields.php:66
+msgid "Enter the contact email address."
+msgstr ""
+
+#: inc/custom-fields.php:70
+msgid "Features"
+msgstr ""
+
+#: inc/custom-fields.php:74
+msgid "Loyalty Program"
+msgstr ""
+
+#: inc/custom-fields.php:78
+msgid "Live Casino"
+msgstr ""
+
+#: inc/custom-fields.php:82
+msgid "Mobile Casino"
+msgstr ""
+
+#: inc/custom-fields.php:92
+msgid "Casino Rating"
+msgstr ""
+
+#: inc/custom-fields.php:101 inc/custom-fields.php:111 inc/custom-fields.php:121
+#: inc/custom-fields.php:131 inc/custom-fields.php:141 inc/custom-fields.php:151
+#: inc/custom-fields.php:161 inc/custom-fields.php:171 inc/custom-fields.php:181
+#: inc/custom-fields.php:191
+msgid "Rate from 1 to 10 with step of 0.1"
+msgstr ""
+
+#: inc/custom-fields.php:103
+msgid "Games Rating"
+msgstr ""
+
+#: inc/custom-fields.php:113
+msgid "Live Casino Rating"
+msgstr ""
+
+#: inc/custom-fields.php:123
+msgid "Payout Rating"
+msgstr ""
+
+#: inc/custom-fields.php:133
+msgid "Licensing Rating"
+msgstr ""
+
+#: inc/custom-fields.php:143
+msgid "Payment Methods Rating"
+msgstr ""
+
+#: inc/custom-fields.php:153
+msgid "Withdrawal Speed Rating"
+msgstr ""
+
+#: inc/custom-fields.php:163
+msgid "Support Rating"
+msgstr ""
+
+#: inc/custom-fields.php:173
+msgid "Offers Rating"
+msgstr ""
+
+#: inc/custom-fields.php:183
+msgid "Mobile Rating"
+msgstr ""
+
+#: inc/custom-fields.php:193
+msgid "Website Rating"
+msgstr ""
+
+#: inc/custom-fields.php:207 inc/custom-fields.php:260
+msgid "Linked Games"
+msgstr ""
+
+#: inc/custom-fields.php:222 inc/custom-fields.php:275
+msgid "No games found."
+msgstr ""
+
+#: inc/custom-fields.php:234 inc/custom-fields.php:287
+msgid "Linked Casinos"
+msgstr ""
+
+#: inc/custom-fields.php:249
+msgid "No casinos found."
+msgstr ""
+
+#: inc/custom-post-types.php:19
+msgctxt "Post Type General Name"
+msgid "Games"
+msgstr ""
+
+#: inc/custom-post-types.php:20
+msgctxt "Post Type Singular Name"
+msgid "Game"
+msgstr ""
+
+#: inc/custom-post-types.php:21 inc/custom-post-types.php:81
+msgid "Games"
+msgstr ""
+
+#: inc/custom-post-types.php:22 inc/custom-post-types.php:82
+msgid "Game"
+msgstr ""
+
+#: inc/custom-post-types.php:23
+msgid "Game Archives"
+msgstr ""
+
+#: inc/custom-post-types.php:24
+msgid "Game Attributes"
+msgstr ""
+
+#: inc/custom-post-types.php:25
+msgid "Parent Game:"
+msgstr ""
+
+#: inc/custom-post-types.php:26
+msgid "All Games"
+msgstr ""
+
+#: inc/custom-post-types.php:27 inc/custom-post-types.php:88
+msgid "Add New"
+msgstr ""
+
+#: inc/custom-post-types.php:28
+msgid "Add New Game"
+msgstr ""
+
+#: inc/custom-post-types.php:29
+msgid "New Game"
+msgstr ""
+
+#: inc/custom-post-types.php:30
+msgid "Edit Game"
+msgstr ""
+
+#: inc/custom-post-types.php:31
+msgid "Update Game"
+msgstr ""
+
+#: inc/custom-post-types.php:32
+msgid "View Game"
+msgstr ""
+
+#: inc/custom-post-types.php:33
+msgid "View Games"
+msgstr ""
+
+#: inc/custom-post-types.php:34
+msgid "Search Game"
+msgstr ""
+
+#: inc/custom-post-types.php:35 inc/custom-post-types.php:96
+msgid "Not found"
+msgstr ""
+
+#: inc/custom-post-types.php:36 inc/custom-post-types.php:97
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/custom-post-types.php:37 inc/custom-post-types.php:98
+msgid "Featured Image"
+msgstr ""
+
+#: inc/custom-post-types.php:38 inc/custom-post-types.php:99
+msgid "Set featured image"
+msgstr ""
+
+#: inc/custom-post-types.php:39 inc/custom-post-types.php:100
+msgid "Remove featured image"
+msgstr ""
+
+#: inc/custom-post-types.php:40 inc/custom-post-types.php:101
+msgid "Use as featured image"
+msgstr ""
+
+#: inc/custom-post-types.php:41
+msgid "Insert into game"
+msgstr ""
+
+#: inc/custom-post-types.php:42
+msgid "Uploaded to this game"
+msgstr ""
+
+#: inc/custom-post-types.php:43
+msgid "Games list"
+msgstr ""
+
+#: inc/custom-post-types.php:44
+msgid "Games list navigation"
+msgstr ""
+
+#: inc/custom-post-types.php:45
+msgid "Filter games list"
+msgstr ""
+
+#: inc/custom-post-types.php:49
+msgid "Game"
+msgstr ""
+
+#: inc/custom-post-types.php:50
+msgid "Game Description"
+msgstr ""
+
+#: inc/custom-post-types.php:80
+msgctxt "Post Type General Name"
+msgid "Casinos"
+msgstr ""
+
+#: inc/custom-post-types.php:81
+msgctxt "Post Type Singular Name"
+msgid "Casino"
+msgstr ""
+
+#: inc/custom-post-types.php:82 inc/custom-post-types.php:83
+msgid "Casinos"
+msgstr ""
+
+#: inc/custom-post-types.php:84
+msgid "Casino"
+msgstr ""
+
+#: inc/custom-post-types.php:85
+msgid "Casino Archives"
+msgstr ""
+
+#: inc/custom-post-types.php:86
+msgid "Casino Attributes"
+msgstr ""
+
+#: inc/custom-post-types.php:87
+msgid "Parent Casino:"
+msgstr ""
+
+#: inc/custom-post-types.php:88
+msgid "All Casinos"
+msgstr ""
+
+#: inc/custom-post-types.php:89
+msgid "Add New Casino"
+msgstr ""
+
+#: inc/custom-post-types.php:90
+msgid "New Casino"
+msgstr ""
+
+#: inc/custom-post-types.php:91
+msgid "Edit Casino"
+msgstr ""
+
+#: inc/custom-post-types.php:92
+msgid "Update Casino"
+msgstr ""
+
+#: inc/custom-post-types.php:93
+msgid "View Casino"
+msgstr ""
+
+#: inc/custom-post-types.php:94
+msgid "View Casinos"
+msgstr ""
+
+#: inc/custom-post-types.php:95
+msgid "Search Casino"
+msgstr ""
+
+#: inc/custom-post-types.php:102
+msgid "Insert into casino"
+msgstr ""
+
+#: inc/custom-post-types.php:103
+msgid "Uploaded to this casino"
+msgstr ""
+
+#: inc/custom-post-types.php:104
+msgid "Casinos list"
+msgstr ""
+
+#: inc/custom-post-types.php:105
+msgid "Casinos list navigation"
+msgstr ""
+
+#: inc/custom-post-types.php:106
+msgid "Filter casinos list"
+msgstr ""
+
+#: inc/custom-post-types.php:110
+msgid "Casino"
+msgstr ""
+
+#: inc/custom-post-types.php:111
+msgid "Casino Description"
+msgstr ""
+
+#: inc/custom-post-types.php:148
+msgctxt "Taxonomy General Name"
+msgid "Game Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:149
+msgctxt "Taxonomy Singular Name"
+msgid "Game Category"
+msgstr ""
+
+#: inc/custom-post-types.php:150 inc/custom-post-types.php:181
+msgid "Game Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:151
+msgid "Game Category"
+msgstr ""
+
+#: inc/custom-post-types.php:152 inc/custom-post-types.php:183
+msgid "All Game Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:153
+msgid "Parent Game Category"
+msgstr ""
+
+#: inc/custom-post-types.php:154
+msgid "Parent Game Category:"
+msgstr ""
+
+#: inc/custom-post-types.php:155
+msgid "New Game Category Name"
+msgstr ""
+
+#: inc/custom-post-types.php:156
+msgid "Add New Game Category"
+msgstr ""
+
+#: inc/custom-post-types.php:157
+msgid "Edit Game Category"
+msgstr ""
+
+#: inc/custom-post-types.php:158
+msgid "Update Game Category"
+msgstr ""
+
+#: inc/custom-post-types.php:159
+msgid "View Game Category"
+msgstr ""
+
+#: inc/custom-post-types.php:160
+msgid "Separate game categories with commas"
+msgstr ""
+
+#: inc/custom-post-types.php:161
+msgid "Add or remove game categories"
+msgstr ""
+
+#: inc/custom-post-types.php:162
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/custom-post-types.php:163
+msgid "Popular Game Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:164
+msgid "Search Game Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:165 inc/custom-post-types.php:195
+msgid "Not Found"
+msgstr ""
+
+#: inc/custom-post-types.php:166 inc/custom-post-types.php:196
+msgid "No game categories"
+msgstr ""
+
+#: inc/custom-post-types.php:167
+msgid "Game Categories list"
+msgstr ""
+
+#: inc/custom-post-types.php:168
+msgid "Game Categories list navigation"
+msgstr ""
+
+#: inc/custom-post-types.php:179
+msgctxt "Taxonomy General Name"
+msgid "Game Tags"
+msgstr ""
+
+#: inc/custom-post-types.php:180
+msgctxt "Taxonomy Singular Name"
+msgid "Game Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:181
+msgid "Game Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:182
+msgid "Game Tags"
+msgstr ""
+
+#: inc/custom-post-types.php:184
+msgid "Parent Game Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:185
+msgid "Parent Game Tag:"
+msgstr ""
+
+#: inc/custom-post-types.php:186
+msgid "New Game Tag Name"
+msgstr ""
+
+#: inc/custom-post-types.php:187
+msgid "Add New Game Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:188
+msgid "Edit Game Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:189
+msgid "Update Game Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:190
+msgid "View Game Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:191
+msgid "Separate game tags with commas"
+msgstr ""
+
+#: inc/custom-post-types.php:192
+msgid "Add or remove game tags"
+msgstr ""
+
+#: inc/custom-post-types.php:193
+msgid "Choose from the most used game tags"
+msgstr ""
+
+#: inc/custom-post-types.php:194
+msgid "Popular Game Tags"
+msgstr ""
+
+#: inc/custom-post-types.php:197
+msgid "Game Tags list"
+msgstr ""
+
+#: inc/custom-post-types.php:198
+msgid "Game Tags list navigation"
+msgstr ""
+
+#: inc/custom-post-types.php:215
+msgctxt "Taxonomy General Name"
+msgid "Casino Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:216
+msgctxt "Taxonomy Singular Name"
+msgid "Casino Category"
+msgstr ""
+
+#: inc/custom-post-types.php:217 inc/custom-post-types.php:248
+msgid "Casino Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:218
+msgid "Casino Category"
+msgstr ""
+
+#: inc/custom-post-types.php:219 inc/custom-post-types.php:250
+msgid "All Casino Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:220
+msgid "Parent Casino Category"
+msgstr ""
+
+#: inc/custom-post-types.php:221
+msgid "Parent Casino Category:"
+msgstr ""
+
+#: inc/custom-post-types.php:222
+msgid "New Casino Category Name"
+msgstr ""
+
+#: inc/custom-post-types.php:223
+msgid "Add New Casino Category"
+msgstr ""
+
+#: inc/custom-post-types.php:224
+msgid "Edit Casino Category"
+msgstr ""
+
+#: inc/custom-post-types.php:225
+msgid "Update Casino Category"
+msgstr ""
+
+#: inc/custom-post-types.php:226
+msgid "View Casino Category"
+msgstr ""
+
+#: inc/custom-post-types.php:227
+msgid "Separate casino categories with commas"
+msgstr ""
+
+#: inc/custom-post-types.php:228
+msgid "Add or remove casino categories"
+msgstr ""
+
+#: inc/custom-post-types.php:229
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/custom-post-types.php:230
+msgid "Popular Casino Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:231
+msgid "Search Casino Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:232 inc/custom-post-types.php:262
+msgid "Not Found"
+msgstr ""
+
+#: inc/custom-post-types.php:233 inc/custom-post-types.php:263
+msgid "No casino categories"
+msgstr ""
+
+#: inc/custom-post-types.php:234
+msgid "Casino Categories list"
+msgstr ""
+
+#: inc/custom-post-types.php:235
+msgid "Casino Categories list navigation"
+msgstr ""
+
+#: inc/custom-post-types.php:246
+msgctxt "Taxonomy General Name"
+msgid "Casino Tags"
+msgstr ""
+
+#: inc/custom-post-types.php:247
+msgctxt "Taxonomy Singular Name"
+msgid "Casino Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:248
+msgid "Casino Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:249
+msgid "Casino Tags"
+msgstr ""
+
+#: inc/custom-post-types
+.php:250
+msgid "Parent Casino Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:251
+msgid "Parent Casino Tag:"
+msgstr ""
+
+#: inc/custom-post-types.php:252
+msgid "New Casino Tag Name"
+msgstr ""
+
+#: inc/custom-post-types.php:253
+msgid "Add New Casino Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:254
+msgid "Edit Casino Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:255
+msgid "Update Casino Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:256
+msgid "View Casino Tag"
+msgstr ""
+
+#: inc/custom-post-types.php:257
+msgid "Separate casino tags with commas"
+msgstr ""
+
+#: inc/custom-post-types.php:258
+msgid "Add or remove casino tags"
+msgstr ""
+
+#: inc/custom-post-types.php:259
+msgid "Choose from the most used casino tags"
+msgstr ""
+
+#: inc/custom-post-types.php:260
+msgid "Popular Casino Tags"
+msgstr ""
+
+#: inc/custom-post-types.php:261
+msgid "Search Casino Tags"
+msgstr ""
+
+#: inc/custom-post-types.php:264
+msgid "Casino Tags list"
+msgstr ""
+
+#: inc/custom-post-types.php:265
+msgid "Casino Tags list navigation"
+msgstr ""
+
+#: inc/custom-post-types.php:266
+msgid "Filter casino tags list"
+msgstr ""
+
+#: inc/shortcodes.php:35
+msgid "View All Casinos"
+msgstr ""
+
+#: inc/shortcodes.php:67
+msgid "Rating"
+msgstr ""
+
+#: inc/shortcodes.php:68
+msgid "Visit"
+msgstr ""
+
+#: inc/shortcodes.php:108
+msgid "View Details"
+msgstr ""
+
+#: inc/sidebar-widget.php:22
+msgid "Casino Theme Sidebar Widget"
+msgstr ""
+
+#: inc/sidebar-widget.php:23
+msgid "A tabbed widget for displaying popular casinos, new casinos, and top-rated casinos."
+msgstr ""
+
+#: inc/sidebar-widget.php:61
+msgid "Popular Casinos"
+msgstr ""
+
+#: inc/sidebar-widget.php:64
+msgid "New Casinos"
+msgstr ""
+
+#: inc/sidebar-widget.php:67
+msgid "Top Rated Casinos"
+msgstr ""
+
+#: search.php:22
+#. translators: %s: search query
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:39
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:43
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: search.php:48
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: sidebar.php:14
+msgid "Sidebar"
+msgstr ""
+
+#: single-casino.php:35
+msgid "Composite Rating"
+msgstr ""
+
+#: single-casino.php:42 single-game.php:32
+msgid "Visit Site"
+msgstr ""
+
+#: single-casino.php:50
+msgid "Casino Details"
+msgstr ""
+
+#: single-casino.php:53
+msgid "Official Site:"
+msgstr ""
+
+#: single-casino.php:57
+msgid "Established:"
+msgstr ""
+
+#: single-casino.php:61
+msgid "Contact:"
+msgstr ""
+
+#: single-casino.php:66
+msgid "Features:"
+msgstr ""
+
+#: single-casino.php:68
+msgid "Loyalty Program"
+msgstr ""
+
+#: single-casino.php:71
+msgid "Live Casino"
+msgstr ""
+
+#: single-casino.php:74
+msgid "Mobile Casino"
+msgstr ""
+
+#: single-casino.php:83
+msgid "Linked Games"
+msgstr ""
+
+#: single-game.php:25
+msgid "Game Information"
+msgstr ""
+
+#: single-game.php:40
+msgid "Linked Casinos"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post? <a href="%1$s">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content.php:34
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: post title
+#: template-parts/content.php:27
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
