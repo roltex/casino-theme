@@ -241,7 +241,7 @@ This theme is licensed under the GNU General Public License v2 or later.
 ## 👨‍💻 Author
 
 **Roland Esakia**
-- Website: [https://buildweb.dev/casino](https://buildweb.dev/casino)
+- Website: [https://casino.buildweb.dev](https://casino.buildweb.dev)
 - Email: [contact@buildweb.dev](mailto:contact@buildweb.dev)
 
 ## 🆘 Support
