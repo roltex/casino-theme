@@ -34,7 +34,7 @@ A modern, responsive WordPress theme designed specifically for casino reviews an
 
 1. **Download the theme**
    ```bash
-   git clone https://github.com/yourusername/casino-theme.git
+   git clone https://github.com/roltex/casino-theme.git
    ```
 
 2. **Upload to WordPress**
@@ -112,7 +112,7 @@ Add custom CSS through the WordPress admin:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/casino-theme.git
+   git clone https://github.com/roltex/casino-theme.git
    cd casino-theme
    ```
 
@@ -249,7 +249,7 @@ This theme is licensed under the GNU General Public License v2 or later.
 ### Getting Help
 
 1. **Documentation** - Check this README first
-2. **Issues** - Create an issue on GitHub
+2. **Issues** - Create an issue on [GitHub](https://github.com/roltex/casino-theme/issues)
 3. **Contact** - Email the author for support
 
 ### Common Issues
@@ -283,4 +283,6 @@ This theme is licensed under the GNU General Public License v2 or later.
 
 ---
 
-**Made with ❤️ by Roland Esakia** 
+**Made with ❤️ by Roland Esakia**
+
+**Repository**: [https://github.com/roltex/casino-theme](https://github.com/roltex/casino-theme) 
